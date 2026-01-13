@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт портфолио</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <img src="images/logo.svg" alt="logo">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link active">Главная</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
+            </ul>
+        </nav>
+    </div>
+   
+    <!--.navbar -->
+
+    <header class="header container">
+        <img src="images/avatar.png" alt="Это я" class="header-photo">
+        <!-- /.header-photo -->
+         <div class="header-text">
+            <strong class="header-strong">Привет 👋</strong>
+            
+            <h1 class="header-heading">
+                <span class="header-primary">Я фронтенд-разработчик и веб-дизайнер</span><br> 
+                Меня зовут Владислав Феклистов и я делаю сайты для людей и компаний
+            </h1>
+            <div class="header-links">
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="#" class="social-link"><img src="images/Icons/linkedin.png" alt="linkedin" class="social-logo"></a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link"><img src="images/Icons/twitter.png" alt="twitter" class="social-logo"></a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link"><img src="images/Icons/github.png" alt="github" class="social-logo"></a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link"><img src="images/Icons/stackoverflow.png" alt="stackoverflow" class="social-logo"></a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link"><img src="images/Icons/yt.png" alt="yt" class="social-logo"></a>
+                    </li>
+                </ul>
+                <a href="#" class="cv-download" download>
+                    <img src="images/download.svg" alt="download" class="cv-icon">
+                    <span class="sv-text">Скачать резюме</span>
+                </a>
+            </div>
+         </div>
+         <!-- /.header-text -->
+
+    </header>
+<!-- /.header -->
+ <section class="portfolio">
+    <div class="container">
+        <h2 class="section-heading">Последние проекты</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="images/portfolio/image 1.png" alt="одностраничный сайт" class="card-image">
+                <div class="card-text-wrapper">
+                    <h3 class="card-title">Одностраничный сайт</h3>
+                <ul class="tags">
+                    <li class="tags-item"><a href="#" class="tag">HTML</a></li>
+                    <li class="tags-item"><a href="#" class="tag">CSS</a></li>
+                    <li class="tags-item"><a href="#" class="tag">JavaScript</a></li>
+                    <!-- <li class="tags-item"><a href="#" class="tag">Git</a></li> -->
+                    <!-- <li class="tags-item"><a href="#" class="tag">Vitejs</a></li> -->
+                </ul>
+                <p class="card-text">
+                    Одностраничный сайт (лендинг, посадочная страница) — это страница, которая фокусируется на одном предложении и побуждает посетителя совершить конкретное целевое действие
+                </p>
+                <div class="card-buttons">
+                    <a href="#" class="card-button">
+                        <img src="images/Icons/code.svg" alt="code icon" class="card-button-icon">
+                        <span class="card-button-text">Код</span></a>
+                    <a href="#" class="card-button">
+                        <img src="images/Icons/demo.svg" alt="check icon" class="card-button-icon">
+                        <span class="card-button-text">Демо</span></a>
+                </div>
+                </div>
+                <!-- /.card-text-wrapper -->
+            </div>
+            <div class="card">
+                <img src="images/portfolio/image 2.png" alt="Макет сайта в Figma" class="card-image">
+                <div class="card-text-wrapper">
+                    <h3 class="card-title">Макет сайта в Figma</h3>
+                <ul class="tags">
+                    <li class="tags-item"><a href="#" class="tag">Figma</a></li>
+                    <!-- <li class="tags-item"><a href="#" class="tag">CSS</a></li> -->
+            
+                </ul>
+                <p class="card-text">
+                    Макет сайта — это визуально-структурная схема будущих страниц, в которой заранее определяются блоки, содержание, иерархия заголовков, интерфейсные элементы и сценарии пользователя.
+                </p>
+                <div class="card-buttons">
+                    <a href="#" class="card-button">
+                        <img src="images/Icons/code.svg" alt="code icon" class="card-button-icon">
+                        <span class="card-button-text">Код</span></a>
+                    <a href="#" class="card-button">
+                        <img src="images/Icons/demo.svg" alt="check icon" class="card-button-icon">
+                        <span class="card-button-text">Демо</span></a>
+                </div>
+                </div>
+                <!-- /.card-text-wrapper -->
+            </div>
+            <!-- /.card -->
+        </div>
+    </div>
+
+ </section>
+ <!-- /.portfolio -->
+
+</body>
+</html>
