@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: "Inter", sans-serif;
 }
@@ -94,6 +97,8 @@ body{
 .card-image{
     width: 399px;
     height: 299px;
+    object-fit: cover;
+    flex-shrink: 0;
 }
 .card{
     max-width: 400px;
@@ -162,4 +167,119 @@ body{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+}
+.developer{
+    display: flex;
+    align-items: center;
+    padding: 80px 0 20px;
+}
+.developer-photo{
+    width: 360px;
+    height: 440px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.developer-about{
+    margin-left: 55px;
+
+}
+.developer-hello{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #211B12;
+}
+.developer-title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #BF7506;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+.developer-text{
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+}
+.motto{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #BF7506;
+}
+.developer-sign{
+    max-width: 200px;
+}
+.skills{
+    padding: 20px 0;
+}
+.skills-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    color: #211B12;
+}
+.feedback{
+    padding: 80px 0 160px;
+}
+.feedback-title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    color: #211B12;
+}
+.input-group{
+    position: relative;
+    padding-top: 9px;
+    margin-bottom: 24px;
+}
+.input-label{
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #83807C;
+    padding: 0 8px;
+    background:#ffffff;
+    top: 0;
+    left: 16px;
+}
+
+.input{
+    border: 3px solid #E0DEDC;
+    border-radius: 4px;
+    width: 435px;
+    height: 56px;
+
+}
+.textarea{
+    min-height: 140px;
+}
+.form-container{
+    max-width: 435px;
+    margin: auto;
+}
+.cv-send{
+    /* margin-left: 5px; */
+    display: flex;
+    padding: 7px 8px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+    border: none;
+    border-bottom: 2px solid #BF7506;
+    background-color: #ffffff;
+    cursor: pointer;
+
+}
+.wrapper-button-send{
+    display: flex;
+    justify-content: flex-end;
 }
